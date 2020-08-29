@@ -1,0 +1,8 @@
+[windows]
+52.183.31.240
+
+[windows:vars]
+ansible_user=controlworker2
+ansible_password=devops*12345
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
