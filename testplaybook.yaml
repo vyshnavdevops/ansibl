@@ -2,11 +2,11 @@
   tasks:
   - name: Create directory structure
     win_file:
-	  path: C:\testdrop
-	  state: directory
+      path: C:\testdrop
+      state: directory
 
   - name: Copy a single file
     win_copy:
       src: myfile.txt
       dest: C:\Users\controlworker2\Desktop
-	  remote_dest: yes
+      remote_dest: yes
