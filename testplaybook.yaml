@@ -1,5 +1,5 @@
   tasks:
   - name: Create directory structure
     win_file:
-      path: C:\testfull
+      path: C:\testdrop
       state: directory
