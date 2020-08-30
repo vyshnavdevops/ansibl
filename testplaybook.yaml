@@ -1,4 +1,4 @@
-- host: windows
+- hosts: windows
   tasks:
   - name: Create directory structure
     win_file:
