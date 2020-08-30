@@ -1,8 +1,12 @@
-myfile
-new
-segssdgsgdggxd
-awsfsafas
+- hosts: all
+  tasks:
+  - name: Create directory structure
+    win_file:
+      path: C:\testdrop1
+      state: directory
 
-
-
-myapp
+  - name: Copy a single file
+    win_copy:
+      src: myfile.txt
+      dest: C:\Users\controlworker2\Desktop\
+      remote_dest: yes
