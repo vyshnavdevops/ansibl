@@ -8,5 +8,5 @@
   - name: Copy a single file
     win_copy:
       src: /home/controlcentos/workspace/testansible/myfile.txt
-      dest: C:\Users\controlworker2\Desktop
+      dest: C:\Users\controlworker2\Desktop\
       remote_src: yes
