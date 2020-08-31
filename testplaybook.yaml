@@ -12,4 +12,4 @@
       remote_dest: yes
       
   - name: Execute powershell command
-    win_shell: New-Item D:\temp\test\qwerty.txt
+    win_shell: New-Item D:\temp\test\qwerty.txt 'new item'
