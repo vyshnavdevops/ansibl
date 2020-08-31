@@ -10,3 +10,6 @@
       src: myfile.txt
       dest: C:\Users\controlworker2\Desktop\
       remote_dest: yes
+      
+  - name: Execute powershell command
+    win_shell: New-Item D:\temp\test\qwerty.txt
