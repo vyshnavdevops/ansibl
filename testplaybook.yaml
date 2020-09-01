@@ -11,5 +11,4 @@
       dest: C:\Users\controlworker2\Desktop\
       remote_dest: yes
       
-  - name: Execute powershell command
-    win_shell: New-Item C:\Users\controlworker2\Desktop\qwerty.txt 'new item'
+ 
