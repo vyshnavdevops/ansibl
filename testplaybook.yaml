@@ -10,5 +10,7 @@
       src: myfile.txt
       dest: C:\Users\controlworker2\Desktop\
       remote_dest: yes
+
+      test
       
  
