@@ -3,7 +3,7 @@
   - name: Create directory structure
     win_file:
       path: C:\testdrop1
-      state: directory
+      state: directory098
 
   - name: Copy a single file
     win_copy:
